@@ -1,0 +1,30 @@
+{
+  "usuarios": [
+    {
+      "nome": "thaina de sa ",
+      "email": "thaina@gmail.com",
+      "cpf": "112.254.049-32",
+      "telefone": "(44) 55555-5555",
+      "nascimento": "29/11/2006",
+      "cep": "87485-000",
+      "logradouro": "aethenzan ",
+      "numero": "123",
+      "complemento": "",
+      "bairro": "xh xryms",
+      "cidade": "stnzn",
+      "estado": "BA",
+      "senha": "63a0dac3ba0bb8706edf9a13bbda48fccbfa57f57568ab32276a6360138b7405",
+      "id": 1
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Pen Drive"
+    },
+    {
+      "id": 2,
+      "categoria": "Mouse"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# dependências e builds
+node_modules/
+.next/
+out/
+build/
+
+# segredos locais (NUNCA suba para o GitHub)
+.env
+.env.local
+.env*.local
+
+# sistema / editor / logs
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
