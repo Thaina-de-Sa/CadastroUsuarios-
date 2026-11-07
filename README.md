@@ -1,6 +1,6 @@
-# AdminFlow — CRUD de Usuários
+# Bancos Regulados — CRUD de Usuários
 
-Trabalho desenvolvido com Next.js, React, TypeScript e JSON Server. Inclui listagem, pesquisa, cadastro, edição e exclusão de usuários por requisições HTTP.
+Trabalho desenvolvido com Next.js, React, TypeScript e JSON Server. 
 
 ## Requisitos
 
@@ -13,7 +13,7 @@ Trabalho desenvolvido com Next.js, React, TypeScript e JSON Server. Inclui lista
 2. No **primeiro terminal**, execute `npm run server` (API em http://localhost:3001).
 3. No **segundo terminal**, execute `npm run dev` (site em http://localhost:3000).
 4. Acesse **http://localhost:3000** — sem login, você será levado para `/login`.
-5. (Opcional) Copie `.env.example` para `.env.local` e defina o seu `JWT_SECRET`.
+
 
 **Atenção:** mantenha ambos os terminais abertos. Se a API não estiver rodando, a listagem exibirá uma mensagem de erro. Os dados ficam armazenados em `jsonserver/db.json` e permanecem após reiniciar os servidores.
 
@@ -42,6 +42,4 @@ Arquivos principais: `src/lib/auth.ts`, `src/proxy.ts`, `src/app/api/login/route
 
 Este é um sistema **didático**, com autenticação básica por JWT, mas a API do JSON Server (porta 3001) continua aberta. Antes do envio, a senha é transformada em um hash SHA-256 no navegador para não armazenar o texto original no JSON Server. Esse hash simples **não é adequado a produção**: em um sistema real, use backend seguro, autenticação, validação de dados no servidor e hashing com sal usando Argon2 ou bcrypt.
 
-## Prints para a atividade
 
-Após iniciar os dois servidores, abra `/usuarios` para tirar o print da listagem. Clique em **Novo usuário** para o print do formulário. Cadastre um usuário de exemplo caso queira mostrar uma listagem preenchida.

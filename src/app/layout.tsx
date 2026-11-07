@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AdminFlow | Gestão de Usuários",
+  title: "Banco Regulado | Gestão de Usuários",
   description: "Sistema de cadastro e gerenciamento de usuários",
 };
 
