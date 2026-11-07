@@ -1,12 +1,5 @@
 # Bancos Regulados — CRUD de Usuários
 
-Trabalho desenvolvido com Next.js, React, TypeScript e JSON Server. 
-
-## Requisitos
-
-- Node.js 20.9 ou superior
-- npm
-
 ## Como executar
 
 1. Abra a pasta do projeto no VS Code e execute `npm install` no terminal.
